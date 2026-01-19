@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/gtk+3/3.24.51/include/gtk-3.0",
+                "/opt/homebrew/Cellar/glib/2.86.3/include",
+                "/opt/homebrew/Cellar/glib/2.86.3/include/glib-2.0",
+                "/opt/homebrew/Cellar/glib/2.86.3/lib/glib-2.0/include",
+                "/opt/homebrew/Cellar/pango/1.57.0_1/include/pango-1.0",
+                "/opt/homebrew/Cellar/harfbuzz/12.3.0/include/harfbuzz",
+                "/opt/homebrew/Cellar/cairo/1.18.4/include",
+                "/opt/homebrew/Cellar/cairo/1.18.4/include/cairo",
+                "/opt/homebrew/Cellar/fontconfig/2.17.1/include",
+                "/opt/homebrew/opt/freetype/include/freetype2",
+                "/opt/homebrew/include/gdk-pixbuf-2.0",
+                "/opt/homebrew/opt/libpng/include/libpng16",
+                "/opt/homebrew/Cellar/pixman/0.46.4/include/pixman-1",    // Cairo требует
+                "/opt/homebrew/Cellar/libx11/1.8.12/include"              // X11 зависимости
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/opt/homebrew/Cellar/gtk+3/3.24.51/include/gtk-3.0",
+                    "/opt/homebrew/Cellar/glib/2.86.3/include",
+                    "/opt/homebrew/Cellar/glib/2.86.3/include/glib-2.0",
+                    "/opt/homebrew/Cellar/glib/2.86.3/lib/glib-2.0/include"                ]
+            }
+        }
+    ],
+    "version": 4
+}
